@@ -1,22 +1,22 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const Headingcom = () =>{
-    return <h1>Namaste React Functional Component</h1>
-}
-
-const BodyComponent = () => {
+const TitleComponent = () => {
     return (
-        <div id="parent">
-            <div id="child">
-                <h1>This is h1 tag inside child div</h1>
-            </div>
+        <div>
+            <h2>Namaste React</h2>
         </div>
     );
 }
 
-const headingRoot = ReactDOM.createRoot(document.getElementById("heading"));
-const parentRoot = ReactDOM.createRoot(document.getElementById("root"));
+const CardComponent = () => {
+    return (
+        <div className="card">
+            <TitleComponent />
+            <p>This is a description of the card.</p>
+        </div>
+    );
+}
 
-headingRoot.render(<Headingcom />);
-parentRoot.render(<BodyComponent />);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<CardComponent />);
