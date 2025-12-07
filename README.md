@@ -17,3 +17,8 @@ Some import notes
 JSX : <h1 id ="msg">Hello Namsate Javascript</h1> 
 #Babel does this behind the scene 
 JS : React.createElement("h1",{id:"msg"}, "Hello Namaste Javascript")
+
+#Components in React :
+There two way to write component in React
+1. Class Component 
+2. Functional component 

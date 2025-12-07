@@ -1,22 +1,22 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-console.log("React verstion is ", React.version);
-// React Element - Object representation of UI
-const heading  = React.createElement("h1",{},"Hello World from React");
+const Headingcom = () =>{
+    return <h1>Namaste React Functional Component</h1>
+}
 
-const paragraph = React.createElement("div",{id:"parent"},
-    React.createElement("div", {id:"child"},[
-        React.createElement("h1",{key:"h1"},"I am a h1 tag inside div"),
-        React.createElement("h2",{key:"h2"},"I am a h2 tag inside div")
-    ])
-)
+const BodyComponent = () => {
+    return (
+        <div id="parent">
+            <div id="child">
+                <h1>This is h1 tag inside child div</h1>
+            </div>
+        </div>
+    );
+}
 
-// Render Method
 const headingRoot = ReactDOM.createRoot(document.getElementById("heading"));
-const paraRoot = ReactDOM.createRoot(document.getElementById("root"));
-const jsxHeading = <h1>Hello from JSX</h1>;
+const parentRoot = ReactDOM.createRoot(document.getElementById("root"));
 
-headingRoot.render(jsxHeading);
-// headingRoot.render(heading);
-paraRoot.render(paragraph);
+headingRoot.render(<Headingcom />);
+parentRoot.render(<BodyComponent />);
