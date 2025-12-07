@@ -1,0 +1,25 @@
+{
+  "name": "namastereact",
+  "version": "1.0.0",
+  "description": "This is learning react app",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitish754/learning-react.git"
+  },
+  "author": "Nitish Jha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nitish754/learning-react/issues"
+  },
+  "homepage": "https://github.com/nitish754/learning-react#readme",
+  "devDependencies": {
+    "parcel": "^2.16.1"
+  },
+  "dependencies": {
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
+  }
+}
