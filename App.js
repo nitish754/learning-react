@@ -15,6 +15,8 @@ const paragraph = React.createElement("div",{id:"parent"},
 // Render Method
 const headingRoot = ReactDOM.createRoot(document.getElementById("heading"));
 const paraRoot = ReactDOM.createRoot(document.getElementById("root"));
+const jsxHeading = <h1>Hello from JSX</h1>;
 
-headingRoot.render(heading);
+headingRoot.render(jsxHeading);
+// headingRoot.render(heading);
 paraRoot.render(paragraph);
