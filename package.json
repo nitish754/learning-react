@@ -19,7 +19,8 @@
   "homepage": "https://github.com/nitish754/learning-react#readme",
   "devDependencies": {
     "cz-customizable": "^7.5.1",
-    "parcel": "^2.16.1"
+    "parcel": "^2.16.1",
+    "prettier": "^3.7.4"
   },
   "dependencies": {
     "react": "^19.2.1",
