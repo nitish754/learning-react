@@ -24,3 +24,5 @@ JS : React.createElement("h1",{id:"msg"}, "Hello Namaste Javascript")
 There two way to write component in React
 1. Class Component 
 2. Functional component 
+
+#Config Driven UI 
