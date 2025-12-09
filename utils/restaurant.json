@@ -1,1104 +1,242 @@
-{
-    "restaurants": [
-        {
-            "id": 1,
-            "name": "The Golden Fork",
-            "rating": 4.5,
-            "image": "https://via.placeholder.com/300x200?text=The+Golden+Fork",
-            "price_in_paise": 30000,
-            "cuisines": ["Italian", "Continental"],
-            "delivery_time": "30-40 mins",
-            "is_open": true,
-            "region": {
-                "city": "New York",
-                "state": "NY",
-                "country": "USA",
-                "pincode": "10001"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 15
-            }
+[
+    {
+        "id": 1,
+        "name": "The Golden Fork",
+        "rating": 4.5,
+        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/9/1/b314734e-e994-4ffb-a2f9-e2c9627cbfaa_377797.JPG",
+        "price_in_paise": 30000,
+        "cuisines": ["Italian", "Continental"],
+        "delivery_time": "30-40 mins",
+        "is_open": true,
+        "region": {
+            "city": "New York",
+            "state": "NY",
+            "country": "USA",
+            "pincode": "10001"
         },
-        {
-            "id": 2,
-            "name": "Spice Route",
-            "rating": 4.3,
-            "image": "https://via.placeholder.com/300x200?text=Spice+Route",
-            "price_in_paise": 25000,
-            "cuisines": ["Indian", "North Indian"],
-            "delivery_time": "25-35 mins",
-            "is_open": true,
-            "region": {
-                "city": "Delhi",
-                "state": "DL",
-                "country": "India",
-                "pincode": "110001"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 20
-            }
-        },
-        {
-            "id": 3,
-            "name": "Dragon Palace",
-            "rating": 4.6,
-            "image": "https://via.placeholder.com/300x200?text=Dragon+Palace",
-            "price_in_paise": 28000,
-            "cuisines": ["Chinese", "Asian"],
-            "delivery_time": "35-45 mins",
-            "is_open": true,
-            "region": {
-                "city": "Shanghai",
-                "state": "SH",
-                "country": "China",
-                "pincode": "200001"
-            },
-            "offers": {
-                "isOffer": false,
-                "offer_in_percentage": 0
-            }
-        },
-        {
-            "id": 4,
-            "name": "Burger Haven",
-            "rating": 4.2,
-            "image": "https://via.placeholder.com/300x200?text=Burger+Haven",
-            "price_in_paise": 15000,
-            "cuisines": ["American", "Fast Food"],
-            "delivery_time": "20-30 mins",
-            "is_open": true,
-            "region": {
-                "city": "Los Angeles",
-                "state": "CA",
-                "country": "USA",
-                "pincode": "90001"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 10
-            }
-        },
-        {
-            "id": 5,
-            "name": "Sushi Dreams",
-            "rating": 4.7,
-            "image": "https://via.placeholder.com/300x200?text=Sushi+Dreams",
-            "price_in_paise": 40000,
-            "cuisines": ["Japanese", "Sushi"],
-            "delivery_time": "40-50 mins",
-            "is_open": false,
-            "region": {
-                "city": "Tokyo",
-                "state": "TK",
-                "country": "Japan",
-                "pincode": "100001"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 25
-            }
-        },
-        {
-            "id": 6,
-            "name": "Pasta Perfetto",
-            "rating": 4.4,
-            "image": "https://via.placeholder.com/300x200?text=Pasta+Perfetto",
-            "price_in_paise": 32000,
-            "cuisines": ["Italian", "Pasta"],
-            "delivery_time": "28-38 mins",
-            "is_open": true,
-            "region": {
-                "city": "Rome",
-                "state": "RM",
-                "country": "Italy",
-                "pincode": "00100"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 12
-            }
-        },
-        {
-            "id": 7,
-            "name": "Taco Fiesta",
-            "rating": 4.1,
-            "image": "https://via.placeholder.com/300x200?text=Taco+Fiesta",
-            "price_in_paise": 18000,
-            "cuisines": ["Mexican", "Latin"],
-            "delivery_time": "22-32 mins",
-            "is_open": true,
-            "region": {
-                "city": "Mexico City",
-                "state": "MX",
-                "country": "Mexico",
-                "pincode": "06500"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 18
-            }
-        },
-        {
-            "id": 8,
-            "name": "Kebab King",
-            "rating": 4.3,
-            "image": "https://via.placeholder.com/300x200?text=Kebab+King",
-            "price_in_paise": 20000,
-            "cuisines": ["Middle Eastern", "Turkish"],
-            "delivery_time": "25-35 mins",
-            "is_open": true,
-            "region": {
-                "city": "Istanbul",
-                "state": "IS",
-                "country": "Turkey",
-                "pincode": "34340"
-            },
-            "offers": {
-                "isOffer": false,
-                "offer_in_percentage": 0
-            }
-        },
-        {
-            "id": 9,
-            "name": "Thai Delight",
-            "rating": 4.5,
-            "image": "https://via.placeholder.com/300x200?text=Thai+Delight",
-            "price_in_paise": 22000,
-            "cuisines": ["Thai", "Asian"],
-            "delivery_time": "30-40 mins",
-            "is_open": true,
-            "region": {
-                "city": "Bangkok",
-                "state": "BK",
-                "country": "Thailand",
-                "pincode": "10100"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 15
-            }
-        },
-        {
-            "id": 10,
-            "name": "Pho House",
-            "rating": 4.4,
-            "image": "https://via.placeholder.com/300x200?text=Pho+House",
-            "price_in_paise": 16000,
-            "cuisines": ["Vietnamese", "Asian"],
-            "delivery_time": "20-30 mins",
-            "is_open": true,
-            "region": {
-                "city": "Ho Chi Minh",
-                "state": "HCM",
-                "country": "Vietnam",
-                "pincode": "700000"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 10
-            }
-        },
-        {
-            "id": 11,
-            "name": "Biryani House",
-            "rating": 4.6,
-            "image": "https://via.placeholder.com/300x200?text=Biryani+House",
-            "price_in_paise": 24000,
-            "cuisines": ["Indian", "Hyderabadi"],
-            "delivery_time": "30-40 mins",
-            "is_open": true,
-            "region": {
-                "city": "Hyderabad",
-                "state": "TG",
-                "country": "India",
-                "pincode": "500001"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 22
-            }
-        },
-        {
-            "id": 12,
-            "name": "Croissant Café",
-            "rating": 4.3,
-            "image": "https://via.placeholder.com/300x200?text=Croissant+Café",
-            "price_in_paise": 18000,
-            "cuisines": ["French", "Bakery"],
-            "delivery_time": "15-25 mins",
-            "is_open": true,
-            "region": {
-                "city": "Paris",
-                "state": "PA",
-                "country": "France",
-                "pincode": "75001"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 8
-            }
-        },
-        {
-            "id": 13,
-            "name": "Tapas Taverna",
-            "rating": 4.2,
-            "image": "https://via.placeholder.com/300x200?text=Tapas+Taverna",
-            "price_in_paise": 26000,
-            "cuisines": ["Spanish", "Mediterranean"],
-            "delivery_time": "35-45 mins",
-            "is_open": true,
-            "region": {
-                "city": "Barcelona",
-                "state": "BC",
-                "country": "Spain",
-                "pincode": "08002"
-            },
-            "offers": {
-                "isOffer": false,
-                "offer_in_percentage": 0
-            }
-        },
-        {
-            "id": 14,
-            "name": "Falafel Feast",
-            "rating": 4.1,
-            "image": "https://via.placeholder.com/300x200?text=Falafel+Feast",
-            "price_in_paise": 14000,
-            "cuisines": ["Lebanese", "Middle Eastern"],
-            "delivery_time": "20-30 mins",
-            "is_open": true,
-            "region": {
-                "city": "Beirut",
-                "state": "BE",
-                "country": "Lebanon",
-                "pincode": "1100"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 16
-            }
-        },
-        {
-            "id": 15,
-            "name": "Ramen Noodle",
-            "rating": 4.5,
-            "image": "https://via.placeholder.com/300x200?text=Ramen+Noodle",
-            "price_in_paise": 17000,
-            "cuisines": ["Japanese", "Noodles"],
-            "delivery_time": "25-35 mins",
-            "is_open": true,
-            "region": {
-                "city": "Osaka",
-                "state": "OS",
-                "country": "Japan",
-                "pincode": "530001"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 12
-            }
-        },
-        {
-            "id": 16,
-            "name": "Döner Express",
-            "rating": 4.0,
-            "image": "https://via.placeholder.com/300x200?text=Döner+Express",
-            "price_in_paise": 12000,
-            "cuisines": ["Turkish", "Fast Food"],
-            "delivery_time": "15-25 mins",
-            "is_open": true,
-            "region": {
-                "city": "Ankara",
-                "state": "AN",
-                "country": "Turkey",
-                "pincode": "06100"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 20
-            }
-        },
-        {
-            "id": 17,
-            "name": "Dim Sum Palace",
-            "rating": 4.4,
-            "image": "https://via.placeholder.com/300x200?text=Dim+Sum+Palace",
-            "price_in_paise": 23000,
-            "cuisines": ["Chinese", "Dim Sum"],
-            "delivery_time": "30-40 mins",
-            "is_open": true,
-            "region": {
-                "city": "Hong Kong",
-                "state": "HK",
-                "country": "China",
-                "pincode": "999077"
-            },
-            "offers": {
-                "isOffer": false,
-                "offer_in_percentage": 0
-            }
-        },
-        {
-            "id": 18,
-            "name": "Pizza Paradise",
-            "rating": 4.3,
-            "image": "https://via.placeholder.com/300x200?text=Pizza+Paradise",
-            "price_in_paise": 19000,
-            "cuisines": ["Italian", "Pizza"],
-            "delivery_time": "25-35 mins",
-            "is_open": true,
-            "region": {
-                "city": "Naples",
-                "state": "NA",
-                "country": "Italy",
-                "pincode": "80100"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 14
-            }
-        },
-        {
-            "id": 19,
-            "name": "Grilled Steakhouse",
-            "rating": 4.6,
-            "image": "https://via.placeholder.com/300x200?text=Grilled+Steakhouse",
-            "price_in_paise": 50000,
-            "cuisines": ["American", "Steakhouse"],
-            "delivery_time": "40-50 mins",
-            "is_open": true,
-            "region": {
-                "city": "Chicago",
-                "state": "IL",
-                "country": "USA",
-                "pincode": "60601"
-            },
-            "offers": {
-                "isOffer": false,
-                "offer_in_percentage": 0
-            }
-        },
-        {
-            "id": 20,
-            "name": "Tandoori Nights",
-            "rating": 4.5,
-            "image": "https://via.placeholder.com/300x200?text=Tandoori+Nights",
-            "price_in_paise": 28000,
-            "cuisines": ["Indian", "Tandoori"],
-            "delivery_time": "35-45 mins",
-            "is_open": true,
-            "region": {
-                "city": "Mumbai",
-                "state": "MH",
-                "country": "India",
-                "pincode": "400001"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 18
-            }
-        },
-        {
-            "id": 21,
-            "name": "Soba Stand",
-            "rating": 4.2,
-            "image": "https://via.placeholder.com/300x200?text=Soba+Stand",
-            "price_in_paise": 15000,
-            "cuisines": ["Japanese", "Noodles"],
-            "delivery_time": "20-30 mins",
-            "is_open": true,
-            "region": {
-                "city": "Kyoto",
-                "state": "KY",
-                "country": "Japan",
-                "pincode": "600001"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 11
-            }
-        },
-        {
-            "id": 22,
-            "name": "Momos Corner",
-            "rating": 4.1,
-            "image": "https://via.placeholder.com/300x200?text=Momos+Corner",
-            "price_in_paise": 10000,
-            "cuisines": ["Indian", "Nepali"],
-            "delivery_time": "15-25 mins",
-            "is_open": true,
-            "region": {
-                "city": "Kathmandu",
-                "state": "KM",
-                "country": "Nepal",
-                "pincode": "44600"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 25
-            }
-        },
-        {
-            "id": 23,
-            "name": "Lasagna Lodge",
-            "rating": 4.3,
-            "image": "https://via.placeholder.com/300x200?text=Lasagna+Lodge",
-            "price_in_paise": 29000,
-            "cuisines": ["Italian", "Continental"],
-            "delivery_time": "32-42 mins",
-            "is_open": true,
-            "region": {
-                "city": "Milan",
-                "state": "MI",
-                "country": "Italy",
-                "pincode": "20100"
-            },
-            "offers": {
-                "isOffer": false,
-                "offer_in_percentage": 0
-            }
-        },
-        {
-            "id": 24,
-            "name": "Grill Master",
-            "rating": 4.4,
-            "image": "https://via.placeholder.com/300x200?text=Grill+Master",
-            "price_in_paise": 27000,
-            "cuisines": ["Brazilian", "BBQ"],
-            "delivery_time": "35-45 mins",
-            "is_open": true,
-            "region": {
-                "city": "São Paulo",
-                "state": "SP",
-                "country": "Brazil",
-                "pincode": "01310-100"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 13
-            }
-        },
-        {
-            "id": 25,
-            "name": "Curry Central",
-            "rating": 4.5,
-            "image": "https://via.placeholder.com/300x200?text=Curry+Central",
-            "price_in_paise": 21000,
-            "cuisines": ["Indian", "Curry"],
-            "delivery_time": "28-38 mins",
-            "is_open": true,
-            "region": {
-                "city": "Bangalore",
-                "state": "KA",
-                "country": "India",
-                "pincode": "560001"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 19
-            }
-        },
-        {
-            "id": 26,
-            "name": "Bánh Mì Spot",
-            "rating": 4.0,
-            "image": "https://via.placeholder.com/300x200?text=Bánh+Mì+Spot",
-            "price_in_paise": 11000,
-            "cuisines": ["Vietnamese", "Sandwiches"],
-            "delivery_time": "15-25 mins",
-            "is_open": true,
-            "region": {
-                "city": "Hanoi",
-                "state": "HN",
-                "country": "Vietnam",
-                "pincode": "100000"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 17
-            }
-        },
-        {
-            "id": 27,
-            "name": "Gyro Galaxy",
-            "rating": 4.2,
-            "image": "https://via.placeholder.com/300x200?text=Gyro+Galaxy",
-            "price_in_paise": 13000,
-            "cuisines": ["Greek", "Mediterranean"],
-            "delivery_time": "20-30 mins",
-            "is_open": true,
-            "region": {
-                "city": "Athens",
-                "state": "AT",
-                "country": "Greece",
-                "pincode": "10552"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 9
-            }
-        },
-        {
-            "id": 28,
-            "name": "Maki Moments",
-            "rating": 4.6,
-            "image": "https://via.placeholder.com/300x200?text=Maki+Moments",
-            "price_in_paise": 35000,
-            "cuisines": ["Japanese", "Sushi"],
-            "delivery_time": "40-50 mins",
-            "is_open": true,
-            "region": {
-                "city": "Seoul",
-                "state": "SL",
-                "country": "South Korea",
-                "pincode": "03156"
-            },
-            "offers": {
-                "isOffer": false,
-                "offer_in_percentage": 0
-            }
-        },
-        {
-            "id": 29,
-            "name": "Schnitzel Spot",
-            "rating": 4.3,
-            "image": "https://via.placeholder.com/300x200?text=Schnitzel+Spot",
-            "price_in_paise": 22000,
-            "cuisines": ["German", "European"],
-            "delivery_time": "30-40 mins",
-            "is_open": true,
-            "region": {
-                "city": "Berlin",
-                "state": "BE",
-                "country": "Germany",
-                "pincode": "10115"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 10
-            }
-        },
-        {
-            "id": 30,
-            "name": "Empanada Emporium",
-            "rating": 4.1,
-            "image": "https://via.placeholder.com/300x200?text=Empanada+Emporium",
-            "price_in_paise": 16000,
-            "cuisines": ["Argentine", "Latin"],
-            "delivery_time": "25-35 mins",
-            "is_open": true,
-            "region": {
-                "city": "Buenos Aires",
-                "state": "BA",
-                "country": "Argentina",
-                "pincode": "C1002"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 21
-            }
-        },
-        {
-            "id": 31,
-            "name": "Samosa Station",
-            "rating": 4.0,
-            "image": "https://via.placeholder.com/300x200?text=Samosa+Station",
-            "price_in_paise": 9000,
-            "cuisines": ["Indian", "Snacks"],
-            "delivery_time": "15-20 mins",
-            "is_open": true,
-            "region": {
-                "city": "Jaipur",
-                "state": "RJ",
-                "country": "India",
-                "pincode": "302001"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 24
-            }
-        },
-        {
-            "id": 32,
-            "name": "Pad Thai House",
-            "rating": 4.4,
-            "image": "https://via.placeholder.com/300x200?text=Pad+Thai+House",
-            "price_in_paise": 19000,
-            "cuisines": ["Thai", "Noodles"],
-            "delivery_time": "28-38 mins",
-            "is_open": true,
-            "region": {
-                "city": "Phuket",
-                "state": "PH",
-                "country": "Thailand",
-                "pincode": "83000"
-            },
-            "offers": {
-                "isOffer": false,
-                "offer_in_percentage": 0
-            }
-        },
-        {
-            "id": 33,
-            "name": "Peking Duck House",
-            "rating": 4.5,
-            "image": "https://via.placeholder.com/300x200?text=Peking+Duck+House",
-            "price_in_paise": 33000,
-            "cuisines": ["Chinese", "Peking"],
-            "delivery_time": "40-50 mins",
-            "is_open": true,
-            "region": {
-                "city": "Beijing",
-                "state": "BJ",
-                "country": "China",
-                "pincode": "100000"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 15
-            }
-        },
-        {
-            "id": 34,
-            "name": "Poutine Palace",
-            "rating": 4.1,
-            "image": "https://via.placeholder.com/300x200?text=Poutine+Palace",
-            "price_in_paise": 13000,
-            "cuisines": ["Canadian", "Fast Food"],
-            "delivery_time": "20-30 mins",
-            "is_open": true,
-            "region": {
-                "city": "Montreal",
-                "state": "QC",
-                "country": "Canada",
-                "pincode": "H1A 0A1"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 12
-            }
-        },
-        {
-            "id": 35,
-            "name": "Halal Heaven",
-            "rating": 4.2,
-            "image": "https://via.placeholder.com/300x200?text=Halal+Heaven",
-            "price_in_paise": 18000,
-            "cuisines": ["Middle Eastern", "Halal"],
-            "delivery_time": "25-35 mins",
-            "is_open": true,
-            "region": {
-                "city": "Dubai",
-                "state": "DU",
-                "country": "UAE",
-                "pincode": "00000"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 14
-            }
-        },
-        {
-            "id": 36,
-            "name": "Chicken Tikka Express",
-            "rating": 4.3,
-            "image": "https://via.placeholder.com/300x200?text=Chicken+Tikka+Express",
-            "price_in_paise": 20000,
-            "cuisines": ["Indian", "Tandoori"],
-            "delivery_time": "25-35 mins",
-            "is_open": true,
-            "region": {
-                "city": "Chennai",
-                "state": "TN",
-                "country": "India",
-                "pincode": "600001"
-            },
-            "offers": {
-                "isOffer": false,
-                "offer_in_percentage": 0
-            }
-        },
-        {
-            "id": 37,
-            "name": "Souvlaki Shack",
-            "rating": 4.0,
-            "image": "https://via.placeholder.com/300x200?text=Souvlaki+Shack",
-            "price_in_paise": 15000,
-            "cuisines": ["Greek", "Mediterranean"],
-            "delivery_time": "22-32 mins",
-            "is_open": true,
-            "region": {
-                "city": "Crete",
-                "state": "CR",
-                "country": "Greece",
-                "pincode": "73100"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 11
-            }
-        },
-        {
-            "id": 38,
-            "name": "Kimbap Kitchen",
-            "rating": 4.4,
-            "image": "https://via.placeholder.com/300x200?text=Kimbap+Kitchen",
-            "price_in_paise": 17000,
-            "cuisines": ["Korean", "Asian"],
-            "delivery_time": "25-35 mins",
-            "is_open": true,
-            "region": {
-                "city": "Busan",
-                "state": "BS",
-                "country": "South Korea",
-                "pincode": "48058"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 16
-            }
-        },
-        {
-            "id": 39,
-            "name": "Fish & Chips Co",
-            "rating": 4.2,
-            "image": "https://via.placeholder.com/300x200?text=Fish+&+Chips+Co",
-            "price_in_paise": 14000,
-            "cuisines": ["British", "Seafood"],
-            "delivery_time": "20-30 mins",
-            "is_open": true,
-            "region": {
-                "city": "London",
-                "state": "LN",
-                "country": "United Kingdom",
-                "pincode": "EC1A 1BB"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 10
-            }
-        },
-        {
-            "id": 40,
-            "name": "Borscht & Beyond",
-            "rating": 4.1,
-            "image": "https://via.placeholder.com/300x200?text=Borscht+&+Beyond",
-            "price_in_paise": 16000,
-            "cuisines": ["Eastern European", "Russian"],
-            "delivery_time": "30-40 mins",
-            "is_open": true,
-            "region": {
-                "city": "Moscow",
-                "state": "MO",
-                "country": "Russia",
-                "pincode": "101000"
-            },
-            "offers": {
-                "isOffer": false,
-                "offer_in_percentage": 0
-            }
-        },
-        {
-            "id": 41,
-            "name": "Chow Mein Central",
-            "rating": 4.3,
-            "image": "https://via.placeholder.com/300x200?text=Chow+Mein+Central",
-            "price_in_paise": 18000,
-            "cuisines": ["Chinese", "Noodles"],
-            "delivery_time": "25-35 mins",
-            "is_open": true,
-            "region": {
-                "city": "Guangzhou",
-                "state": "GZ",
-                "country": "China",
-                "pincode": "510000"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 13
-            }
-        },
-        {
-            "id": 42,
-            "name": "Pad See Ew Parlor",
-            "rating": 4.4,
-            "image": "https://via.placeholder.com/300x200?text=Pad+See+Ew+Parlor",
-            "price_in_paise": 19000,
-            "cuisines": ["Thai", "Asian"],
-            "delivery_time": "28-38 mins",
-            "is_open": true,
-            "region": {
-                "city": "Chiang Mai",
-                "state": "CM",
-                "country": "Thailand",
-                "pincode": "50100"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 11
-            }
-        },
-        {
-            "id": 43,
-            "name": "Biryani Biryanis",
-            "rating": 4.5,
-            "image": "https://via.placeholder.com/300x200?text=Biryani+Biryanis",
-            "price_in_paise": 25000,
-            "cuisines": ["Indian", "Biryani"],
-            "delivery_time": "35-45 mins",
-            "is_open": true,
-            "region": {
-                "city": "Lucknow",
-                "state": "UP",
-                "country": "India",
-                "pincode": "226001"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 20
-            }
-        },
-        {
-            "id": 44,
-            "name": "Shawarma Station",
-            "rating": 4.0,
-            "image": "https://via.placeholder.com/300x200?text=Shawarma+Station",
-            "price_in_paise": 12000,
-            "cuisines": ["Middle Eastern", "Fast Food"],
-            "delivery_time": "18-28 mins",
-            "is_open": true,
-            "region": {
-                "city": "Amman",
-                "state": "AM",
-                "country": "Jordan",
-                "pincode": "11100"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 23
-            }
-        },
-        {
-            "id": 45,
-            "name": "Tikka Masala Manor",
-            "rating": 4.5,
-            "image": "https://via.placeholder.com/300x200?text=Tikka+Masala+Manor",
-            "price_in_paise": 26000,
-            "cuisines": ["Indian", "North Indian"],
-            "delivery_time": "32-42 mins",
-            "is_open": true,
-            "region": {
-                "city": "Pune",
-                "state": "MH",
-                "country": "India",
-                "pincode": "411001"
-            },
-            "offers": {
-                "isOffer": false,
-                "offer_in_percentage": 0
-            }
-        },
-        {
-            "id": 46,
-            "name": "Galbi Grill",
-            "rating": 4.4,
-            "image": "https://via.placeholder.com/300x200?text=Galbi+Grill",
-            "price_in_paise": 32000,
-            "cuisines": ["Korean", "BBQ"],
-            "delivery_time": "35-45 mins",
-            "is_open": true,
-            "region": {
-                "city": "Incheon",
-                "state": "IN",
-                "country": "South Korea",
-                "pincode": "22000"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 12
-            }
-        },
-        {
-            "id": 47,
-            "name": "Baklava Bakery",
-            "rating": 4.2,
-            "image": "https://via.placeholder.com/300x200?text=Baklava+Bakery",
-            "price_in_paise": 17000,
-            "cuisines": ["Turkish", "Bakery"],
-            "delivery_time": "20-30 mins",
-            "is_open": true,
-            "region": {
-                "city": "Izmir",
-                "state": "IZ",
-                "country": "Turkey",
-                "pincode": "35000"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 15
-            }
-        },
-        {
-            "id": 48,
-            "name": "Ceviche Corner",
-            "rating": 4.3,
-            "image": "https://via.placeholder.com/300x200?text=Ceviche+Corner",
-            "price_in_paise": 28000,
-            "cuisines": ["Peruvian", "Seafood"],
-            "delivery_time": "30-40 mins",
-            "is_open": true,
-            "region": {
-                "city": "Lima",
-                "state": "LM",
-                "country": "Peru",
-                "pincode": "15047"
-            },
-            "offers": {
-                "isOffer": false,
-                "offer_in_percentage": 0
-            }
-        },
-        {
-            "id": 49,
-            "name": "Goulash Garage",
-            "rating": 4.1,
-            "image": "https://via.placeholder.com/300x200?text=Goulash+Garage",
-            "price_in_paise": 20000,
-            "cuisines": ["Hungarian", "European"],
-            "delivery_time": "32-42 mins",
-            "is_open": true,
-            "region": {
-                "city": "Budapest",
-                "state": "BP",
-                "country": "Hungary",
-                "pincode": "1011"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 10
-            }
-        },
-        {
-            "id": 50,
-            "name": "Poke Bowl Parlor",
-            "rating": 4.6,
-            "image": "https://via.placeholder.com/300x200?text=Poke+Bowl+Parlor",
-            "price_in_paise": 29000,
-            "cuisines": ["Hawaiian", "Seafood"],
-            "delivery_time": "20-30 mins",
-            "is_open": true,
-            "region": {
-                "city": "Honolulu",
-                "state": "HI",
-                "country": "USA",
-                "pincode": "96801"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 18
-            }
-        },
-        {
-            "id": 51,
-            "name": "Dhokla Delight",
-            "rating": 4.2,
-            "image": "https://via.placeholder.com/300x200?text=Dhokla+Delight",
-            "price_in_paise": 11000,
-            "cuisines": ["Indian", "Gujarati"],
-            "delivery_time": "18-28 mins",
-            "is_open": true,
-            "region": {
-                "city": "Ahmedabad",
-                "state": "GJ",
-                "country": "India",
-                "pincode": "380001"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 22
-            }
-        },
-        {
-            "id": 52,
-            "name": "Spring Roll Station",
-            "rating": 4.3,
-            "image": "https://via.placeholder.com/300x200?text=Spring+Roll+Station",
-            "price_in_paise": 13000,
-            "cuisines": ["Vietnamese", "Asian"],
-            "delivery_time": "20-30 mins",
-            "is_open": true,
-            "region": {
-                "city": "Da Nang",
-                "state": "DN",
-                "country": "Vietnam",
-                "pincode": "550000"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 14
-            }
-        },
-        {
-            "id": 53,
-            "name": "Margherita Mansion",
-            "rating": 4.4,
-            "image": "https://via.placeholder.com/300x200?text=Margherita+Mansion",
-            "price_in_paise": 24000,
-            "cuisines": ["Italian", "Pizza"],
-            "delivery_time": "30-40 mins",
-            "is_open": true,
-            "region": {
-                "city": "Venice",
-                "state": "VE",
-                "country": "Italy",
-                "pincode": "30100"
-            },
-            "offers": {
-                "isOffer": false,
-                "offer_in_percentage": 0
-            }
-        },
-        {
-            "id": 54,
-            "name": "Fajita Fiesta Express",
-            "rating": 4.2,
-            "image": "https://via.placeholder.com/300x200?text=Fajita+Fiesta",
-            "price_in_paise": 21000,
-            "cuisines": ["Mexican", "Latin"],
-            "delivery_time": "28-38 mins",
-            "is_open": true,
-            "region": {
-                "city": "Cancun",
-                "state": "QR",
-                "country": "Mexico",
-                "pincode": "77500"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 16
-            }
-        },
-        {
-            "id": 55,
-            "name": "Panipuri Place",
-            "rating": 4.0,
-            "image": "https://via.placeholder.com/300x200?text=Panipuri+Place",
-            "price_in_paise": 8000,
-            "cuisines": ["Indian", "Snacks"],
-            "delivery_time": "12-20 mins",
-            "is_open": true,
-            "region": {
-                "city": "Chandigarh",
-                "state": "CH",
-                "country": "India",
-                "pincode": "160001"
-            },
-            "offers": {
-                "isOffer": true,
-                "offer_in_percentage": 26
-            }
+        "offers": {
+            "isOffer": true,
+            "offer_in_percentage": 15
         }
-    ]
-}
+    },
+    {
+        "id": 2,
+        "name": "Spice Route",
+        "rating": 4.3,
+        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/11/11/c7bfd952-2ec9-4ef2-9a9a-68d2f0361410_747134.JPG",
+        "price_in_paise": 25000,
+        "cuisines": ["Indian", "North Indian"],
+        "delivery_time": "25-35 mins",
+        "is_open": true,
+        "region": {
+            "city": "Delhi",
+            "state": "DL",
+            "country": "India",
+            "pincode": "110001"
+        },
+        "offers": {
+            "isOffer": true,
+            "offer_in_percentage": 20
+        }
+    },
+    {
+        "id": 3,
+        "name": "Dragon Palace",
+        "rating": 4.6,
+        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/6/18/2889c7c2-de06-4e50-9808-7e1075b6a5d9_34932.jpg",
+        "price_in_paise": 28000,
+        "cuisines": ["Chinese", "Asian"],
+        "delivery_time": "35-45 mins",
+        "is_open": true,
+        "region": {
+            "city": "Shanghai",
+            "state": "SH",
+            "country": "China",
+            "pincode": "200001"
+        },
+        "offers": {
+            "isOffer": false,
+            "offer_in_percentage": 0
+        }
+    },
+    {
+        "id": 4,
+        "name": "Burger Haven",
+        "rating": 4.2,
+        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/9/1/b314734e-e994-4ffb-a2f9-e2c9627cbfaa_377797.JPG",
+        "price_in_paise": 15000,
+        "cuisines": ["American", "Fast Food"],
+        "delivery_time": "20-30 mins",
+        "is_open": true,
+        "region": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "country": "USA",
+            "pincode": "90001"
+        },
+        "offers": {
+            "isOffer": true,
+            "offer_in_percentage": 10
+        }
+    },
+    {
+        "id": 5,
+        "name": "Sushi Dreams",
+        "rating": 4.7,
+        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/11/11/c7bfd952-2ec9-4ef2-9a9a-68d2f0361410_747134.JPG",
+        "price_in_paise": 40000,
+        "cuisines": ["Japanese", "Sushi"],
+        "delivery_time": "40-50 mins",
+        "is_open": false,
+        "region": {
+            "city": "Tokyo",
+            "state": "TK",
+            "country": "Japan",
+            "pincode": "100001"
+        },
+        "offers": {
+            "isOffer": true,
+            "offer_in_percentage": 25
+        }
+    },
+    {
+        "id": 6,
+        "name": "Pasta Perfetto",
+        "rating": 4.4,
+        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/6/18/2889c7c2-de06-4e50-9808-7e1075b6a5d9_34932.jpg",
+        "price_in_paise": 32000,
+        "cuisines": ["Italian", "Pasta"],
+        "delivery_time": "28-38 mins",
+        "is_open": true,
+        "region": {
+            "city": "Rome",
+            "state": "RM",
+            "country": "Italy",
+            "pincode": "00100"
+        },
+        "offers": {
+            "isOffer": true,
+            "offer_in_percentage": 12
+        }
+    },
+    {
+        "id": 7,
+        "name": "Taco Fiesta",
+        "rating": 4.1,
+        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/9/1/b314734e-e994-4ffb-a2f9-e2c9627cbfaa_377797.JPG",
+        "price_in_paise": 18000,
+        "cuisines": ["Mexican", "Latin"],
+        "delivery_time": "22-32 mins",
+        "is_open": true,
+        "region": {
+            "city": "Mexico City",
+            "state": "MX",
+            "country": "Mexico",
+            "pincode": "06500"
+        },
+        "offers": {
+            "isOffer": true,
+            "offer_in_percentage": 18
+        }
+    },
+    {
+        "id": 8,
+        "name": "Kebab King",
+        "rating": 4.3,
+        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/11/11/c7bfd952-2ec9-4ef2-9a9a-68d2f0361410_747134.JPG",
+        "price_in_paise": 20000,
+        "cuisines": ["Middle Eastern", "Turkish"],
+        "delivery_time": "25-35 mins",
+        "is_open": true,
+        "region": {
+            "city": "Istanbul",
+            "state": "IS",
+            "country": "Turkey",
+            "pincode": "34340"
+        },
+        "offers": {
+            "isOffer": false,
+            "offer_in_percentage": 0
+        }
+    },
+    {
+        "id": 9,
+        "name": "Thai Delight",
+        "rating": 4.5,
+        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/6/18/2889c7c2-de06-4e50-9808-7e1075b6a5d9_34932.jpg",
+        "price_in_paise": 22000,
+        "cuisines": ["Thai", "Asian"],
+        "delivery_time": "30-40 mins",
+        "is_open": true,
+        "region": {
+            "city": "Bangkok",
+            "state": "BK",
+            "country": "Thailand",
+            "pincode": "10100"
+        },
+        "offers": {
+            "isOffer": true,
+            "offer_in_percentage": 15
+        }
+    },
+    {
+        "id": 10,
+        "name": "Pho House",
+        "rating": 4.4,
+        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/9/1/b314734e-e994-4ffb-a2f9-e2c9627cbfaa_377797.JPG",
+        "price_in_paise": 16000,
+        "cuisines": ["Vietnamese", "Asian"],
+        "delivery_time": "20-30 mins",
+        "is_open": true,
+        "region": {
+            "city": "Ho Chi Minh",
+            "state": "HCM",
+            "country": "Vietnam",
+            "pincode": "700000"
+        },
+        "offers": {
+            "isOffer": true,
+            "offer_in_percentage": 10
+        }
+    },
+    {
+        "id": 11,
+        "name": "Thai Delight",
+        "rating": 4.5,
+        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/6/18/2889c7c2-de06-4e50-9808-7e1075b6a5d9_34932.jpg",
+        "price_in_paise": 22000,
+        "cuisines": ["Thai", "Asian"],
+        "delivery_time": "30-40 mins",
+        "is_open": true,
+        "region": {
+            "city": "Bangkok",
+            "state": "BK",
+            "country": "Thailand",
+            "pincode": "10100"
+        },
+        "offers": {
+            "isOffer": true,
+            "offer_in_percentage": 15
+        }
+    },
+    {
+        "id": 12,
+        "name": "Pho House",
+        "rating": 4.4,
+        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/9/1/b314734e-e994-4ffb-a2f9-e2c9627cbfaa_377797.JPG",
+        "price_in_paise": 16000,
+        "cuisines": ["Vietnamese", "Asian"],
+        "delivery_time": "20-30 mins",
+        "is_open": true,
+        "region": {
+            "city": "Ho Chi Minh",
+            "state": "HCM",
+            "country": "Vietnam",
+            "pincode": "700000"
+        },
+        "offers": {
+            "isOffer": true,
+            "offer_in_percentage": 10
+        }
+    }
+]
