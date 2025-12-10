@@ -1,7 +1,7 @@
-import Header from "../components/Header";
-import WhatsInMind from "../components/WhatInMind";
-import TopRestaurant from "../components/TopRestaurant";
-import Footer from "../components/Footer";
+import Header from "../components/layout/Header";
+import WhatsInMind from "../components/ui/WhatInMind";
+import TopRestaurant from "../components/ui/TopRestaurant";
+import Footer from "../components/layout/Footer";
 import WhatsInMindData from "../utils/whatsInMind.json"
 import restaurants from "../utils/restaurant.json"
 

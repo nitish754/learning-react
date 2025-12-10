@@ -1,3 +1,5 @@
+import Button from "../common/buttons/Button";
+
 const RestaurantCard = ({image,name,cuisine,rating}) => {
     const img = image || "https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsb2ZmaWNlMV9hX2dyYXBoaWNfZWxlbWVudF9vZl9hX2dvbGRlbl9zaG90X29mX2p1c3RfYV9zaV81YzNjMTg3MS0xMTEwLTQzMDQtODgzOC1kMDRjMTY2YWZjZjkucG5n.png";
 
@@ -14,8 +16,9 @@ const RestaurantCard = ({image,name,cuisine,rating}) => {
             </div>
 
             <div className="restaurant-actions">
-                <button className="btn primary">Order</button>
-                <button className="btn ghost">Details</button>
+                <Button label="Order Now" className="primary" />
+                <Button label="Explore foods" className="ghost" />
+             
             </div>
         </div>
     );

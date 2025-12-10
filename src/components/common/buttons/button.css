@@ -1,0 +1,21 @@
+.filter{ margin-bottom: 24px; }
+
+.filter-selectfilter-select{
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid rgba(15,23,42,0.06);
+    font-size: 1rem;
+    cursor: pointer;
+    background: #fff;
+    color: #0f172a;
+}
+
+.filter-btn{
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    background: #3b82f6;
+    color: #fff;
+}

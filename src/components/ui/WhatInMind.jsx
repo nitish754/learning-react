@@ -1,4 +1,4 @@
-import CircleImage from "./CircleImage";
+import CircleImage from "../cards/CircleImage";
 
 const WhatsInMind = ({data}) => {
     return (
