@@ -26,3 +26,12 @@ There two way to write component in React
 2. Functional component 
 
 #Config Driven UI 
+
+#Hooks in React
+Hooks is simple javascript utility function provided by React library to interact with functional components
+Here is widely used 
+useState() - Add state to the functional component. means when we want to make some data reactive. means when you update the local state then that componenet re-render
+useEffect()
+useRef()
+useContext()
+useMemo()
