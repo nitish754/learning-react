@@ -35,3 +35,9 @@ useEffect()
 useRef()
 useContext()
 useMemo()
+
+1. Virtual DOM:
+The Virtual DOM is a lightweight JavaScript object that represents the structure of the actual browser DOM. React uses this virtual representation to efficiently determine what parts of the real DOM need to be updated, instead of re-rendering the entire UI.
+
+2. Reconciliation Algorithm (React Fiber):
+Introduced in React 16, React Fiber is the new reconciliation algorithm that determines how and when the UI should update. It uses an optimized diffing algorithm to compare the previous Virtual DOM with the new one, identify the changes, and update only the necessary parts of the actual DOM, resulting in smoother and faster rendering.
